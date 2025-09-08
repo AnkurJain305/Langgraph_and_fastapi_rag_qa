@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-import models, schemas
+import models as models, schemas.schemas as schemas
 
 # CREATE
 def create_qa(db: Session, qa: schemas.QACreate):
